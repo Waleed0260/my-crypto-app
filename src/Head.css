@@ -1,0 +1,16 @@
+.head{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(59, 57, 57);
+}
+.head>h1{
+    color: yellow;
+}
+.head>.btn{
+    cursor: pointer;
+    margin-top: 20px;
+    height: 40px;
+    width: 70px;
+    border: none;
+    background-color: yellow;
+}

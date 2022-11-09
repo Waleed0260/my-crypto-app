@@ -1,0 +1,15 @@
+.main{
+    /* background: linear-gradient(35dig, #456345, #4563); */
+    width: 98.75vw;
+    height: 420px;
+    background-image: url("https://us.123rf.com/450wm/derocz/derocz2007/derocz200700009/151026879-black-hexagonal-pattern-on-green-magma-background-abstract-illustration-with-glowing-neon-lava-vecto.jpg?ver=6");
+ /* //   background: black; */
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

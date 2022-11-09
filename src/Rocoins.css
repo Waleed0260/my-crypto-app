@@ -1,0 +1,15 @@
+.rocoins{
+    display: flex;
+    /* flex-direction: row; */
+    text-align: center;
+    gap: 4rem;
+    color: white;
+    width: 76vw;
+    margin-left: 10rem;
+    overflow: hidden;
+}
+
+.crypto>img{
+    width: 150px;
+    height: 150px;    
+}

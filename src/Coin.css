@@ -1,0 +1,46 @@
+.coin-container{
+    margin-top: 10px;
+}
+.coin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.coin>img{
+    height: 70px;
+    margin-left: 20px;
+}
+.coin-row{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.coin-data{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-weight: bold;
+}
+.red{
+    color: #ff8080;
+}
+.green{
+    color: #b091ff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .coin{
+        display: flex;
+        flex-direction: column;
+    }
+    .coin-row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
